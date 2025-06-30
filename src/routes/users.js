@@ -7,4 +7,11 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/:id", (req, res) => {
+  const users = ["sharath", "mohan", "karthik"];
+  res.status(200).json({
+    user: users[req.params.id],
+  });
+});
+
 module.exports = router;
