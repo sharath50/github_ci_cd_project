@@ -1,0 +1,25 @@
+{
+  "name": "github_ci_cd_project",
+  "version": "1.0.0",
+  "description": "project for learning and testing github actions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharath50/github_ci_cd_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sharath50/github_ci_cd_project/issues"
+  },
+  "homepage": "https://github.com/sharath50/github_ci_cd_project#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
