@@ -8,4 +8,6 @@ app.get("/", (req, res) => {
   });
 });
 
+app.use("/api/users", require("./src/routes/users"));
+
 module.exports = app;
